@@ -15,7 +15,8 @@
         "arithmetic"
     ],
     "author": "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
-    "main": "complex",
+    "exports": { ".": "./complex.js" },
+    "type": "module",
     "types": "complex.d.ts",
     "private": false,
     "directories": {
@@ -25,14 +26,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git://github.com/infusion/Complex.js.git"
-    },
-    "funding": {
-        "type": "patreon",
-        "url": "https://www.patreon.com/infusion"
-    },
-    "engines": {
-        "node": "*"
+        "url": "git://github.com/KatapultDevelopment/Complex.js.git"
     },
     "scripts": {
         "test": "mocha tests/*.js"
