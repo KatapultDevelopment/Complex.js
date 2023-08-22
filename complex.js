@@ -33,7 +33,7 @@
  *
  */
 
-export const Conplex = (function() {
+export const Complex = (function() {
 
   'use strict';
 
